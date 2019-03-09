@@ -1,0 +1,21 @@
+# Got to Git home directory with Git command:
+$ cd ~
+
+# May need to alter path if sublime is stored in another location or change .exe file if using a different text editor.
+# Add following Git command to open a specified text editor when writing Git commits:
+$ git config --global core.editor "'C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe' -n -w"
+
+# Change .bash_profile file to bash_profile with following Git command:
+$ mv .bash_profile bash_profile
+
+# Add the following line to the bottom of the file to create a Git command 'subl' that will open said text editor to view a specified file:
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
+# Change bash_profile file back to .bash_profile:
+$ mv bash_profile .bash_profile
+
+# Add two more Git config commands:
+$ git config --global push.default upstream
+$ git config --global merge.conflictstyle diff3
+
+# Close and reopen Git Bash to effect alterations.
