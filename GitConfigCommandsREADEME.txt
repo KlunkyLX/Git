@@ -1,4 +1,4 @@
-# Got to Git home directory with Git command:
+# Go to Git home directory with Git command:
 $ cd ~
 
 # May need to alter path if sublime is stored in another location or change .exe file if using a different text editor.
